@@ -27,7 +27,7 @@
 		      </div>      
 		      <div class="p-companyManagement__block">
 		      	<div class="p-companyManagement__description">神奈川県出身。一橋大学在学中にIT分野にて起業。2006年大学卒業後、野村證券株式会社に入社。本社の富裕層向けプライベートバンキング業務、ASEAN地域の経営戦略担当等に従事。2013年3月に野村證券を退職。同年4月に株式会社ZUUを設立し代表取締役に就任。
-					<div class="company_management_training" style="margin-top: 10px; color: #ed0000;"><i class="c-link__icon -rear fa fa-angle-right"></i><a href="https://zuu.co.jp/lecture/">講演依頼</a></div>
+<!-- 					<div class="company_management_training" style="margin-top: 10px; color: #ed0000;"><i class="c-link__icon -rear fa fa-angle-right"></i><a href="https://zuu.co.jp/lecture/">講演依頼</a></div> -->
 		     	</div>
 		      </div>
 		    </li>
