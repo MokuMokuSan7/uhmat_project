@@ -30,6 +30,9 @@
 /* 	animation: bgimg 20s infinite ease-in; */
 /* } */
 
+.testContainer {
+	background-image: url("image/mainSample3.jpg");	
+}
 
 .mainViewContainer {
 	width: 1100px;

@@ -72,7 +72,7 @@
 		      	<div class="p-companyManagement__picture"><img src="" alt="안수빈 프로필 사진"></div>
 		        	<div class="p-companyManagement__text">
 		            	<div class="p-companyManagement__post">수석 디자이너</div>
-		          		<div class="p-companyManagement__name">안수빈</div>
+		          		<div class="p-companyManagement__name">우수빈</div>
 		            </div>
 		      </div>
 		      <div class="p-companyManagement__block">

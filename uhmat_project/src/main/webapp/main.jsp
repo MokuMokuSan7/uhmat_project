@@ -36,8 +36,7 @@
 	   		});
 	  }
 	
-	});
-	
+	});	
 </script>
 </head>
 <body>
@@ -56,6 +55,7 @@
 	<div class="mainImageContainer">
 		<img class="mainImage" src="image/mainSample3.jpg">
 	</div>
+	
 	<!-- 검색창 끝 -->
 	
 	<!-- 본문들어가는 곳 시작 -->
@@ -111,8 +111,10 @@
 		</div>	
 		<!-- 리뷰어 창 끝 -->
 		
-		
-		
+		<div id="testContainer">
+			이미지
+		</div>
+
 	</div>
 <!-- 메인페이지 영역 끝 -->		
 <!-- <hr> -->
