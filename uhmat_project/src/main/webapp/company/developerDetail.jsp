@@ -67,9 +67,9 @@
 		      	<div class="p-companyManagement__description">東京都出身。1994年中央大学商学部を卒業後、株式会社丸井を経て新日本監査法人に入所。法定監査業務に従事。その後株式会社グッドラックコーポレーションにて管理本部長に就任。2018年に株式会社夢真ホールディングス(現夢真ビーネックスホールディングス)に入社。財務経理・M&amp;Aを管掌後2019年に取締役に就任。2021年9月に退任。2021年10月より株式会社ZUUに参画。</div>
 		      </div>
 		    </li>
-		    <li class="p-companyManagement__item is-picture -right" alt="取締役 藤井 由康">
+		    <li class="p-companyManagement__item is-picture -right" alt="수석 디자이너 우수빈">
 		      <div class="p-companyManagement__heading">
-		      	<div class="p-companyManagement__picture"><img src="" alt="안수빈 프로필 사진"></div>
+		      	<div class="p-companyManagement__picture"><img src="" alt="우수빈 프로필 사진"></div>
 		        	<div class="p-companyManagement__text">
 		            	<div class="p-companyManagement__post">수석 디자이너</div>
 		          		<div class="p-companyManagement__name">우수빈</div>
