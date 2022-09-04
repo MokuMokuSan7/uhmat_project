@@ -18,7 +18,7 @@
 		  <ul class="p-companyManagement">
 		  	<li class="p-companyManagement__item is-picture -left" alt="대표 안승우">
 		      <div class="p-companyManagement__heading">
-		      	<div class="p-companyManagement__picture"><img src="" alt=""></div>
+		      	<div class="p-companyManagement__picture"><img src="" alt="안승우 프로필 사진"></div>
 		        	<div class="p-companyManagement__text">
 		            	<div class="p-companyManagement__post">대표</div>
 		          		<div class="p-companyManagement__name">안승우</div>
@@ -26,14 +26,14 @@
 		            </div>
 		      </div>      
 		      <div class="p-companyManagement__block">
-		      	<div class="p-companyManagement__description">神奈川県出身。一橋大学在学中にIT分野にて起業。2006年大学卒業後、野村證券株式会社に入社。本社の富裕層向けプライベートバンキング業務、ASEAN地域の経営戦略担当等に従事。2013年3月に野村證券を退職。同年4月に株式会社ZUUを設立し代表取締役に就任。
+		      	<div class="p-companyManagement__description">양산 출신. 동의대를 졸업하고 IT기업에 인턴으로 입사. 단소 관련 어플리케이션 개발 후 부산 서면 아아티윌 학원의 자바 스프링 클래스 수강시작. 클래스의 그룹프로젝트인 (주)여가그가의 대표 역임. 맛집 리뷰 커뮤니티 사이트인 '어맛' 개발의 총책임자도 겸임함. 그룹의 대표로서 팀원들의 케어 및 프로젝트의 원활한 진행을 위해 물심양면으로 도움.
 <!-- 					<div class="company_management_training" style="margin-top: 10px; color: #ed0000;"><i class="c-link__icon -rear fa fa-angle-right"></i><a href="https://zuu.co.jp/lecture/">講演依頼</a></div> -->
 		     	</div>
 		      </div>
 		    </li>
 		    <li class="p-companyManagement__item is-picture -right" alt="取締役 原田 佑介">
 		      <div class="p-companyManagement__heading">
-		      	<div class="p-companyManagement__picture"><img src="" alt=""></div>
+		      	<div class="p-companyManagement__picture"><img src="" alt="박영재 프로필 사진"></div>
 		        	<div class="p-companyManagement__text">
 		            	<div class="p-companyManagement__post">지니어스</div>
 		          		<div class="p-companyManagement__name">박영재</div>
@@ -45,7 +45,7 @@
 		    </li>
 		    <li class="p-companyManagement__item is-picture -left" alt="取締役 樋口 拓郎">
 		      <div class="p-companyManagement__heading">
-		      	<div class="p-companyManagement__picture"><img src="" alt=""></div>
+		      	<div class="p-companyManagement__picture"><img src="" alt="임주영 프로필 사진"></div>
 		        	<div class="p-companyManagement__text">
 		            	<div class="p-companyManagement__post">끈지와 집념의 사나이</div>
 		          		<div class="p-companyManagement__name">임주영</div>
@@ -57,7 +57,7 @@
 		    </li>
 		    <li class="p-companyManagement__item is-picture -right" alt="取締役 藤井 由康">
 		      <div class="p-companyManagement__heading">
-		      	<div class="p-companyManagement__picture"><img src="" alt=""></div>
+		      	<div class="p-companyManagement__picture"><img src="" alt="박기윤 프로필 사진"></div>
 		        	<div class="p-companyManagement__text">
 		            	<div class="p-companyManagement__post">총대장</div>
 		          		<div class="p-companyManagement__name">박기윤</div>
@@ -69,7 +69,7 @@
 		    </li>
 		    <li class="p-companyManagement__item is-picture -right" alt="取締役 藤井 由康">
 		      <div class="p-companyManagement__heading">
-		      	<div class="p-companyManagement__picture"><img src="" alt=""></div>
+		      	<div class="p-companyManagement__picture"><img src="" alt="안수빈 프로필 사진"></div>
 		        	<div class="p-companyManagement__text">
 		            	<div class="p-companyManagement__post">수석 디자이너</div>
 		          		<div class="p-companyManagement__name">안수빈</div>
@@ -81,7 +81,7 @@
 		    </li>
 		    <li class="p-companyManagement__item is-picture -right" alt="取締役 藤井 由康">
 		      <div class="p-companyManagement__heading">
-		      	<div class="p-companyManagement__picture"><img src="" alt=""></div>
+		      	<div class="p-companyManagement__picture"><img src="" alt="최민석 프로필 사진"></div>
 		        	<div class="p-companyManagement__text">
 		            	<div class="p-companyManagement__post">총리</div>
 		          		<div class="p-companyManagement__name">최민석</div>
@@ -93,7 +93,7 @@
 		    </li>
 		    <li class="p-companyManagement__item is-picture -right" alt="取締役 藤井 由康">
 		      <div class="p-companyManagement__heading">
-		      	<div class="p-companyManagement__picture"><img src="" alt=""></div>
+		      	<div class="p-companyManagement__picture"><img src="" alt="목민수 프로필 사진"></div>
 		        	<div class="p-companyManagement__text">
 		            	<div class="p-companyManagement__post">찌끄래기</div>
 		          		<div class="p-companyManagement__name">목민수</div>
