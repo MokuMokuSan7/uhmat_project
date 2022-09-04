@@ -13,8 +13,10 @@
 	<!-- 헤더 들어가는곳 -->
 	
 	<!-- 본문 시작 -->
-	<div id="container">
+	<div id="uhmatDetailContainer">
 		<h1>어맛 소개</h1>
+		
+	
 	</div>
 	<!-- 본문 끝 -->
 		
