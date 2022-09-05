@@ -72,18 +72,20 @@
     .mainView li{width:calc(100% * 5);height:250px;}
  
  
-#mainSec02 {
-	animation:slide 10s infinite;
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: center center;
-	position: relative;
-	animation:bgimg 20s infinite;
-	height: 100px;
-	width: 100%;
-	border-top: 10px solid #FFC300; 
-}
-
+/* #mainSec02 { */
+/* 	animation:slide 10s infinite; */
+/* 	background-repeat: no-repeat; */
+/* 	background-size: cover; */
+/* 	background-position: center center; */
+/* 	position: relative; */
+/* 	animation:bgimg 20s infinite; */
+/* 	height: 200px; */
+/* 	width: 100%; */
+/* 	border-top: 10px solid #FFC300;  */
+/* } */
+/* #mainSec02 { */
+/* 	border-top: 10px solid #FFC300; */
+/* } */
 
 
 /* 리뷰(기윤이형) CSS의 일부를 들고옴 */
@@ -169,4 +171,7 @@ p > img {
 
 .restaurantCategory {
 	margin-bottom: 50px;
+	background-size: cover;
+	background-image: url("/uhmat_project/image/mainSample3.jpg");
+	animation: bgimg 10s infinite ease-in;
 }
