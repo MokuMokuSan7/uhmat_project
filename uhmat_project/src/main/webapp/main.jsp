@@ -150,30 +150,12 @@
 								<td><img src="#" width="300" height="200"></td>
 								<td><img src="#" width="300" height="200"></td>
 							</tr>
-						</table>
-						
+						</table>						
 					</div>
 				</div>
 			</div>
 		<!-- 어맛 추천 리뷰 끝 -->
-		
-		<!-- 리뷰어 창 시작 -->
-			<div class="reviewer">
-				<div class = "imgContainer"><h2>어맛 리뷰어</h2>
-					<div class = "mainView" >
-						<ul>
-							<li><img src="image/sample1.jpg" width="100%" /></li>
-							<li><img src="image/sample2.jpg" width="100%" /></li>
-							<li><img src="image/sample3.jpg" width="100%" /></li>
-							<li><img src="image/sample4.jpg" width="100%" /></li>
-							<li><img src="image/sample5.jpg" width="100%" /></li>
-						</ul>
-					</div>
-				</div>
-			</div>
-		</div>	
-		<!-- 리뷰어 창 끝 -->
-				
+			
 		<!-- 사이드바 들어가는곳 -->
 			<jsp:include page="inc/sidebar.jsp" flush="false" />
 		<!-- 사이드바 들어가는곳 -->
@@ -182,8 +164,16 @@
 <!-- 메인페이지 영역 끝 -->		
 <!-- <hr> -->
 	
+	<section id="mainSec02">
+		<div class="categoryImageContainer">
+			
+		</div>
+	</section>
+	
 	<!-- 식당 카테고리 페이지 시작 -->
+	<div class="restaurantCategory">
 		<jsp:include page="food/restaurant/category_page.jsp" />
+	</div>	
 	<!-- 식당 카테고리 페이지 끝 -->
 	
 	<!-- 푸터 들어가는곳 시작 -->

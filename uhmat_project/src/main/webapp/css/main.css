@@ -39,6 +39,7 @@
 .mainViewContainer {
 	width: 1100px;
 	margin: 0 auto;
+	margin-bottom: 80px;
 }
 
 .rankContainer {
@@ -59,15 +60,6 @@
 	margin-top: 20px;
 }
 
-.reviewer {
-	border: solid 1px;
-	height: 250px;
-	width: 1100px;
-	margin-top: 20px;
-	margin-bottom: 80px;
-}
-
-
 .mainView{
 	margin: auto;
 	margin-bottom: 20px;
@@ -78,28 +70,20 @@
 .mainView{height:250px; width: 250px; overflow:hidden;}
     .mainView ul{width:calc(100% * 5);display:flex;animation:slide 10s infinite;} /* slide를 8초동안 진행하며 무한반복 함 */
     .mainView li{width:calc(100% * 5);height:250px;}
-    
-    @keyframes slide {
-      0% {margin-left:0;} /* 0 ~ 10  : 정지 */
-      10% {margin-left:0;} /* 10 ~ 25 : 변이 */
-      25% {margin-left:-100%;} /* 25 ~ 35 : 정지 */
-      35% {margin-left:-100%;} /* 35 ~ 50 : 변이 */
-	  45% {margin-left:-200%;}
-      55% {margin-left:-200%;}
-      65% {margin-left:-300%;}
-      75% {margin-left:-300%;}
-      85% {margin-left:-400%;}
-      95% {margin-left:-400%;}
-      100% {margin-left:0;}
-    }
-
-@keyframes slide2 {
-	0% {background-image: url("/image/sample1.jpg");}
-	25% {background-image: url("/image/sample2.jpg");}
-	50% {background-image: url("/image/sample3.jpg");}
-	75% {background-image: url("/image/sample4.jpg");}
-	100% {background-image: url("/image/sample5.jpg");}
+ 
+ 
+#mainSec02 {
+	animation:slide 10s infinite;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	position: relative;
+	animation:bgimg 20s infinite;
+	height: 100px;
+	width: 100%;
+	border-top: 10px solid #FFC300; 
 }
+
 
 
 /* 리뷰(기윤이형) CSS의 일부를 들고옴 */
@@ -181,4 +165,8 @@ p > img {
     letter-spacing: 2px;
     transform: scale(1.2);
     cursor: pointer;
+}
+
+.restaurantCategory {
+	margin-bottom: 50px;
 }
