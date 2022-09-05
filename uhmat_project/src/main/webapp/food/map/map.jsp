@@ -240,7 +240,7 @@ window.onload = function(){
 </script>
 </head>
 <body>
-	<input type="button" value="홈" onclick="location.href='index.jsp'">
+	<input type="button" value="홈" onclick="location.href='/uhmat_project/'">
 	<input type="button" value="음식점목록"
 		onclick="location.href='restaurantList.re'">
 

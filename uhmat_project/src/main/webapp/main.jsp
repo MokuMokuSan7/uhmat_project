@@ -96,11 +96,14 @@
 	
 	
 <!-- 	<hr>		 -->
-			
+			 
 	<!-- 메인페이지 영역 시작 -->
 	<div class="mainContainer">	
 	<!-- 검색창 시작 -->
-	<div class="mainImageContainer">
+	<div id="keybox">@keyframes</div>
+	
+	<section id="sec01"></section>
+	<div id="mainImageContainer">
 		<img class="mainImage" src="image/mainSample3.jpg">
 	</div>
 	<!-- 검색창 끝 -->
