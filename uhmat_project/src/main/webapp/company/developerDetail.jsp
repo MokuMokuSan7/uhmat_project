@@ -31,7 +31,7 @@
 		     	</div>
 		      </div>
 		    </li>
-		    <li class="p-companyManagement__item is-picture -right" alt="取締役 原田 佑介">
+		    <li class="p-companyManagement__item is-picture -right" alt="지니어스 박영재">
 		      <div class="p-companyManagement__heading">
 		      	<div class="p-companyManagement__picture"><img src="" alt="박영재 프로필 사진"></div>
 		        	<div class="p-companyManagement__text">
@@ -40,22 +40,22 @@
 		           	</div>
 		      </div>
 		      <div class="p-companyManagement__block">
-		        <div class="p-companyManagement__description">東京都出身。2008年に早稲田大学卒業後、新卒で株式会社ベンチャー・リンクに入社し、中小企業の経営コンサルティング業務に従事。その後2011年に株式会社ディー・エヌ・エーに入社し、ゲーム開発、国内外の開発会社のコンサルティング業務に従事。2014年に株式会社ZUUに参画。</div>
+		        <div class="p-companyManagement__description">의무병 출신. 대표와 마찬가지로 부산 서면 아이티윌 과정에 참여하여 그룹프로젝트에 참가. 초반 우여곡절을 겪었으나 지도 API를 적용하는 등의 활약으로 팀의 숨은 에이스로 부상. 본인의 부족함을 노력으로 승화시키는 노력가이자 지니어스.</div>
 		      </div>
 		    </li>
-		    <li class="p-companyManagement__item is-picture -left" alt="取締役 樋口 拓郎">
+		    <li class="p-companyManagement__item is-picture -left" alt="끈기와 집념의 사나이 임주영">
 		      <div class="p-companyManagement__heading">
 		      	<div class="p-companyManagement__picture"><img src="" alt="임주영 프로필 사진"></div>
 		        	<div class="p-companyManagement__text">
-		            	<div class="p-companyManagement__post">끈지와 집념의 사나이</div>
+		            	<div class="p-companyManagement__post">끈기와 집념의 사나이</div>
 		          		<div class="p-companyManagement__name">임주영</div>
 		            </div>
 		      </div>
 		      <div class="p-companyManagement__block">
-		        <div class="p-companyManagement__description">愛知県出身。2007年上智大学法学部卒業後、株式会社リクルートの新規事業開発部門にて、IT事業子会社の立ち上げに従事。その後、2013年に株式会社カカクコムに入社し、食べログの事業開発・マーケティング部門の立ち上げに従事。2016年株式会社ZUUに参画。</div>
+		        <div class="p-companyManagement__description">비전공자임에도 불구하고 끝까지 본인이 하고자 하는 목표가 있으면 끝끝내 이루어내고야마는 끈기와 집념의 사나이. 모두에게 예의바르고 깍듯하여 팀을 비롯하여 주위로부터의 좋은 인상을 심어주고 있기도 함.</div>
 		      </div>
 		    </li>
-		    <li class="p-companyManagement__item is-picture -right" alt="取締役 藤井 由康">
+		    <li class="p-companyManagement__item is-picture -right" alt="총대장 박기윤">
 		      <div class="p-companyManagement__heading">
 		      	<div class="p-companyManagement__picture"><img src="" alt="박기윤 프로필 사진"></div>
 		        	<div class="p-companyManagement__text">
@@ -64,7 +64,7 @@
 		            </div>
 		      </div>
 		      <div class="p-companyManagement__block">
-		      	<div class="p-companyManagement__description">東京都出身。1994年中央大学商学部を卒業後、株式会社丸井を経て新日本監査法人に入所。法定監査業務に従事。その後株式会社グッドラックコーポレーションにて管理本部長に就任。2018年に株式会社夢真ホールディングス(現夢真ビーネックスホールディングス)に入社。財務経理・M&amp;Aを管掌後2019年に取締役に就任。2021年9月に退任。2021年10月より株式会社ZUUに参画。</div>
+		      	<div class="p-companyManagement__description">팀의 브레인 3대장 중 한 명이자 구심점 중 하나. 프론트엔드에 흥미를 가지고 과정에 참여하였으나 클래스가 진행함에 따라 백엔드 쪽의 개발에도 흥미를 가져 둘 다 도전하기에 이름.<br>그 이름대로 그가 맡은 파트는 상당히 퀄리티가 좋음.</div>
 		      </div>
 		    </li>
 		    <li class="p-companyManagement__item is-picture -right" alt="수석 디자이너 우수빈">
@@ -76,10 +76,10 @@
 		            </div>
 		      </div>
 		      <div class="p-companyManagement__block">
-		      	<div class="p-companyManagement__description">東京都出身。1994年中央大学商学部を卒業後、株式会社丸井を経て新日本監査法人に入所。法定監査業務に従事。その後株式会社グッドラックコーポレーションにて管理本部長に就任。2018年に株式会社夢真ホールディングス(現夢真ビーネックスホールディングス)に入社。財務経理・M&amp;Aを管掌後2019年に取締役に就任。2021年9月に退任。2021年10月より株式会社ZUUに参画。</div>
+		      	<div class="p-companyManagement__description">팀의 유일한 홍일점이자 디자이너 담당. 남정네들 가득한 팀안에서 그녀만의 미적 센스를 발휘하여 디자인에 생기를 불러일으킨다. 어맛 홈페이지 내의 여러 디자인 다수가 그녀의 손을 통해 탄생했다고 봐도 과언이 아님. 디자인 뿐만 아니라 백엔드 개발 쪽에도 저력을 발휘함.</div>
 		      </div>
 		    </li>
-		    <li class="p-companyManagement__item is-picture -right" alt="取締役 藤井 由康">
+		    <li class="p-companyManagement__item is-picture -right" alt="총리 최민석">
 		      <div class="p-companyManagement__heading">
 		      	<div class="p-companyManagement__picture"><img src="" alt="최민석 프로필 사진"></div>
 		        	<div class="p-companyManagement__text">
@@ -88,10 +88,10 @@
 		            </div>
 		      </div>
 		      <div class="p-companyManagement__block">
-		      	<div class="p-companyManagement__description">東京都出身。1994年中央大学商学部を卒業後、株式会社丸井を経て新日本監査法人に入所。法定監査業務に従事。その後株式会社グッドラックコーポレーションにて管理本部長に就任。2018年に株式会社夢真ホールディングス(現夢真ビーネックスホールディングス)に入社。財務経理・M&amp;Aを管掌後2019年に取締役に就任。2021年9月に退任。2021年10月より株式会社ZUUに参画。</div>
+		      	<div class="p-companyManagement__description">(주)여가그가의 자,타칭 총리를 역임. 총리를 맡고 있지만 팀의 최연소이다. 뿐만 아니라 팀의 브레인 3대장 중 한 명. 굉장히 프로젝트에 애살을 가지고 끊임없이 다양한 아이디어를 제시하여 팀의 다양한 시도를 하게끔 하는 원동력.<br>가까운 시일 내에 부모님이 운영하시는 여관의 홈페이지를 본인의 손으로 만들어 드리고 싶은 일념 하에 열심히 클래스에 임했으며 어맛프로젝트에도 참가함.</div>
 		      </div>
 		    </li>
-		    <li class="p-companyManagement__item is-picture -right" alt="取締役 藤井 由康">
+		    <li class="p-companyManagement__item is-picture -right" alt="찌끄래기 목민수">
 		      <div class="p-companyManagement__heading">
 		      	<div class="p-companyManagement__picture"><img src="" alt="목민수 프로필 사진"></div>
 		        	<div class="p-companyManagement__text">
@@ -100,7 +100,7 @@
 		            </div>
 		      </div>
 		      <div class="p-companyManagement__block">
-		      	<div class="p-companyManagement__description">東京都出身。1994年中央大学商学部を卒業後、株式会社丸井を経て新日本監査法人に入所。法定監査業務に従事。その後株式会社グッドラックコーポレーションにて管理本部長に就任。2018年に株式会社夢真ホールディングス(現夢真ビーネックスホールディングス)に入社。財務経理・M&amp;Aを管掌後2019年に取締役に就任。2021年9月に退任。2021年10月より株式会社ZUUに参画。</div>
+		      	<div class="p-companyManagement__description">팀의 최연장자이자 그와 동시에 최약체를 담당하고 있음. 말그대로 찌끄래기. 절대 뽀시래기가 아님. 비전공자로서 생전 처음 접하는 장르에 열심히 따라가려고 노력해 보지만 역시 나이는 무시못함. 그의 노력과 도전은 프로젝트가 끝난 후에도 계속될 것.</div>
 		      </div>
 		    </li>
 		</ul>
