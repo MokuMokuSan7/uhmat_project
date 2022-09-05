@@ -89,12 +89,12 @@
 </head>
 <body>
 	<!-- 헤더 들어가는곳 -->
+	<header id="header">	
 		<jsp:include page="inc/header.jsp" flush="false" />
+	</header>	
 	<!-- 헤더 들어가는곳 -->
 	
-	<!-- 사이드바 들어가는곳 -->
-<%-- 		<jsp:include page="inc/sidebar.jsp" flush="false" /> --%>
-	<!-- 사이드바 들어가는곳 -->
+	
 <!-- 	<hr>		 -->
 			
 	<!-- 메인페이지 영역 시작 -->
@@ -170,14 +170,22 @@
 		</div>	
 		<!-- 리뷰어 창 끝 -->
 		
+		<!-- 사이드바 들어가는곳 -->
+			<jsp:include page="inc/sidebar.jsp" flush="false" />
+		<!-- 사이드바 들어가는곳 -->
+		
 	</div>
 <!-- 메인페이지 영역 끝 -->		
 <!-- <hr> -->
 	
-	<!-- 식당 카테고리 페이지 추가 -->
+	<!-- 식당 카테고리 페이지 시작 -->
 		<jsp:include page="food/restaurant/category_page.jsp" />
+	<!-- 식당 카테고리 페이지 끝 -->
+	
 	<!-- 푸터 들어가는곳 시작 -->
+	<footer id="footer">
 		<jsp:include page="inc/footer.jsp" flush="false" />
+	</footer>	
 	<!-- 푸터 들어가는곳 끝 -->		
 
 </body>

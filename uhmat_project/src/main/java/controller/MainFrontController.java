@@ -27,17 +27,8 @@ public class MainFrontController extends HttpServlet {
 		System.out.println(command);
 		ActionForward forward = null;
 		Action action = null;
-		// 회원가입 폼
-		if (command.equals("/UhmatSearch.sch")) {
-			try {
-				action = new UhmatSearchAction();
-				forward = action.execute(request, response);
-			} catch (Exception e) {
-				// TODO Auto-generated catch block
-				e.printStackTrace();
-			}
-			
-		} else if(command.equals("/ReviewBest.ma")) {
+		// 최다 좋아요 리뷰
+		if(command.equals("/ReviewBest.ma")) {
 			try {
 				action = new ReviewBestAction();
 				forward = action.execute(request, response);

@@ -27,7 +27,7 @@ public class MainSearchController extends HttpServlet {
 		System.out.println(command);
 		ActionForward forward = null;
 		Action action = null;
-		// 회원가입 폼
+		// 검색 결과창으로 이동
 		if (command.equals("/UhmatSearch.sch")) {
 			try {
 				action = new UhmatSearchAction();
