@@ -26,6 +26,7 @@ import action.serviceCenter.NoticeModifyFormAction;
 import action.serviceCenter.NoticeModifyProAction;
 import action.serviceCenter.NoticeWriteProAction;
 import action.serviceCenter.NoticelistCategoryAction;
+import action.serviceCenter.ServiceCenterMainAction;
 import vo.*;
 
 @WebServlet("*.sc")
@@ -220,7 +221,19 @@ public class ServiceCenterFrontController extends HttpServlet {
 				e.printStackTrace();
 			}
 		}
-
+		
+		// 서비스센터 메인 호출하는 서블릿
+		else if(command.equals("/ServiceCenterMain.sc")) {
+			
+			try {
+				action = new ServiceCenterMainAction();
+				forward = action.execute(request, response);
+			} catch (Exception e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
+			
+		}
 		
 		
 		//--------------------------------------------------------------------
