@@ -1,42 +1,46 @@
 @charset "UTF-8";
 
-@keyframes bgimg {
-   0% {background-image: url("/uhmat_project/image/abend.jpg"); }
-  20% {background-image: url("/uhmat_project/image/abend.jpg"); }
-  25% {background-image: url("/uhmat_project/image/backpack.jpg"); }
-  45% {background-image: url("/uhmat_project/image/backpack.jpg"); }
-  50% {background-image: url("/uhmat_project/image/bare.jpg"); }
-  70% {background-image: url("/uhmat_project/image/bare.jpg"); }
-  75% {background-image: url("/uhmat_project/image/drop.jpg"); }
-  95% {background-image: url("/uhmat_project/image/drop.jpg"); }
- 100% {background-image: url("/uhmat_project/image/abend.jpg"); }
-}
-
 .mainImage {
 	position:relative;
 	height: 300px;
 	width: 100%;
 	object-fit: cover;
-	animation: img 20s infinite ease-in;
 }
 
-/* #sec01 {height: 800px; */
-/* background-image: url("/uhmat_project/image/abend.jpg");  */
-/* background-size: cover; */
-/* background-position: 50% 50%; */
-/* position: relative; */
-/* animation:bgimg 20s infinite ease-in;} */
+@keyframes bgimg {
+	0% {background-image: url("/uhmat_project/image/mainSample3.jpg");}
+	20% {background-image: url("/uhmat_project/image/mainSample3.jpg");}
+	25% {background-image: url("/uhmat_project/image/mainSample4.jpg");}
+	50% {background-image: url("/uhmat_project/image/mainSample4.jpg");}
+	70% {background-image: url("/uhmat_project/image/mainSample2.jpg");}
+	75% {background-image: url("/uhmat_project/image/mainSample2.jpg");}
+	80% {background-image: url("/uhmat_project/image/mainSample.jpg");}
+	100% {background-image: url("/uhmat_project/image/mainSample.jpg");}
+}
 
-/* #mainImage { */
-/* 	height: 300px; */
-/* 	width: 100%; */
-/* 	background-image: url("image/abend.jpg"); */
-/* 	background-size: cover; */
-/* 	background-position: 50% 50%; */
-/* 	position: relative; */
-/* 	animation: bgimg 20s infinite ease-in; */
-/* } */
+#mainSec01 {
+	background-image: url("/uhmat_project/image/mainSample3.jpg");
+/* 	border: 1px solid; */
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	position: relative;
+	height: 300px;
+	width: 100%;
+	animation: bgimg 10s infinite ease-in;
+}
 
+#sec02 {
+	background-image: url("/uhmat_project/image/mainSample3.jpg");
+/* 	border: 1px solid; */
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	position: relative;
+	height: 300px;
+	width: 100%;
+	animation: bgimg 10s infinite ease-in;
+}
 
 .mainViewContainer {
 	width: 1100px;

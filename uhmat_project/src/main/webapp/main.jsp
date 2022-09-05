@@ -100,16 +100,17 @@
 	<!-- 메인페이지 영역 시작 -->
 	<div class="mainContainer">	
 	<!-- 검색창 시작 -->
-	<div id="keybox">@keyframes</div>
 	
-	<section id="sec01"></section>
-	<div id="mainImageContainer">
-		<img class="mainImage" src="image/mainSample3.jpg">
-	</div>
+<!-- 	<section id="sec01"></section> -->
+<!-- 	<div id="mainImageContainer"> -->
+<!-- 		<img class="mainImage" src="image/mainSample3.jpg"> -->
+<!-- 	</div> -->
 	<!-- 검색창 끝 -->
 	
 	<!-- 본문들어가는 곳 시작 -->
-	
+	<section id="mainSec01">
+		<div class="mainSec01"></div>
+	</section>
 
 	
 		<!-- 최고의 리뷰 순위 시작 -->
@@ -172,6 +173,17 @@
 			</div>
 		</div>	
 		<!-- 리뷰어 창 끝 -->
+		
+		<section id="sec02"><!-- 배경이미지 전환 애니 --> 
+			 <h2>animation-direction</h2>
+			  <!-- 위치이동 애니 -->
+			 <div id="ball01" class="aniball nm">ball</div>
+			 <div id="ball02" class="aniball rv">ball</div>
+			 <div id="ball03" class="aniball al">ball</div>
+			 <div id="ball04" class="aniball rval">ball</div> 
+		</section>
+		
+		
 		
 		<!-- 사이드바 들어가는곳 -->
 			<jsp:include page="inc/sidebar.jsp" flush="false" />
