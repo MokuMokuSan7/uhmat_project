@@ -95,7 +95,7 @@
 		      <div class="p-companyManagement__heading">
 		      	<div class="p-companyManagement__picture"><img src="" alt="목민수 프로필 사진"></div>
 		        	<div class="p-companyManagement__text">
-		            	<div class="p-companyManagement__post">찌끄래기</div>
+		            	<div class="p-companyManagement__post">찌끄래기 WEB.D</div>
 		          		<div class="p-companyManagement__name">목민수</div>
 		            </div>
 		      </div>
