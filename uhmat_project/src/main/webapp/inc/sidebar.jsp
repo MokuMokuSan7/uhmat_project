@@ -15,15 +15,17 @@
 	  	});
 	});
 </script>
-<link href="/uhmat_project/css/sidebar.css" rel="stylesheet" type="text/css">
+<link href="${pageContext.request.contextPath}/css/sidebar.css" rel="stylesheet" type="text/css">
 </head>
 <body>
-	<div class="quickmenu">
- 		<ul>
-	    	<li><a href="#header">TOP</a></li>
-		    <li><a href="NoticeList.sc">공지사항</a></li>
-		    <li><a href="#footer">DOWN</a></li>
-  		</ul>
-	</div>
+	<section id="secSide">
+		<div class="quickmenu">
+	 		<ul>
+		    	<li><a href="#header">TOP</a></li>
+			    <li><a href="NoticeList.sc">공지사항</a></li>
+			    <li><a href="#footer">DOWN</a></li>
+	  		</ul>
+		</div>
+	</section>	
 </body>
 </html>

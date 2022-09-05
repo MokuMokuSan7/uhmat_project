@@ -35,13 +35,6 @@ public class MainController extends HttpServlet {
 			forward.setRedirect(false);
 		} 
 		
-		// 사이드바 FAQ 이동
-		else if(command.equals("FAQList.sc")) {
-			forward = new ActionForward();
-			forward.setPath("/serviceCenter/faq/faqlist.jsp");
-			forward.setRedirect(false);
-		}
-		
 
 		if (forward != null) {
 			if (forward.isRedirect()) {
