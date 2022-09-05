@@ -31,7 +31,7 @@
 			<table border="1">
 				<tr>
 					<td class="td_left"><label for="nickname">글쓴이</label></td>
-					<td class="td_right"><input type="text" name="nickname" id="nickname" required="required" value="${sessionScope.sNickName }"/></td>
+					<td class="td_right"><input type="text" readonly="readonly" name="nickname" id="nickname" required="required" value="${sessionScope.sNickName }"/></td>
 				</tr>
 				<tr>
 					<td class="td_left"><label for="subject">제목</label></td>
@@ -51,7 +51,7 @@
 						<select id="selectBox" name="category">
 							<option value="오류신고">오류신고</option>
 							<option value="음식점등록">음식점등록</option>
-							<option value="자도 오류">지도 오류</option>
+							<option value="지도 오류">지도 오류</option>
 						</select>
 					</td>
 				</tr>

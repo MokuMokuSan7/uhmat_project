@@ -15,6 +15,11 @@
 
 
 <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+<script type="text/javascript">
+function loginAlert(){
+	alert("로그인을 해주세요");
+}
+</script>
 </head>
 <body>
 		<jsp:include page="../../inc/header.jsp"></jsp:include>
@@ -122,9 +127,15 @@
 		
 		<c:if test="${not empty sessionScope.sNickName }"> 
 			<section id="buttonArea">
-				<input type="button" value="글쓰기" onclick="location.href='FAQWriteForm.sc'" id="bt"/>
+				<input type="button" value="질문하기" onclick="location.href='FAQWriteForm.sc'" id="bt"/>
 			</section>
 		</c:if>
+		<c:if test="${empty sessionScope.sNickName }"> 
+			<section id="buttonArea">
+				<input type="button" value="질문하기" onclick="loginAlert()" id="bt" />
+			</section>
+		</c:if>
+		
 		
 		<!-- Footer 부분 -->
 			<jsp:include page="../../inc/footer.jsp"></jsp:include>
