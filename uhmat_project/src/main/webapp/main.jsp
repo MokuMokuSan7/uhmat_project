@@ -173,18 +173,7 @@
 			</div>
 		</div>	
 		<!-- 리뷰어 창 끝 -->
-		
-		<section id="sec02"><!-- 배경이미지 전환 애니 --> 
-			 <h2>animation-direction</h2>
-			  <!-- 위치이동 애니 -->
-			 <div id="ball01" class="aniball nm">ball</div>
-			 <div id="ball02" class="aniball rv">ball</div>
-			 <div id="ball03" class="aniball al">ball</div>
-			 <div id="ball04" class="aniball rval">ball</div> 
-		</section>
-		
-		
-		
+				
 		<!-- 사이드바 들어가는곳 -->
 			<jsp:include page="inc/sidebar.jsp" flush="false" />
 		<!-- 사이드바 들어가는곳 -->

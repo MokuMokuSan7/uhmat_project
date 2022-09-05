@@ -9,28 +9,22 @@
 
 @keyframes bgimg {
 	0% {background-image: url("/uhmat_project/image/mainSample3.jpg");}
-	20% {background-image: url("/uhmat_project/image/mainSample3.jpg");}
-	25% {background-image: url("/uhmat_project/image/mainSample4.jpg");}
-	50% {background-image: url("/uhmat_project/image/mainSample4.jpg");}
-	70% {background-image: url("/uhmat_project/image/mainSample2.jpg");}
-	75% {background-image: url("/uhmat_project/image/mainSample2.jpg");}
+	15% {background-image: url("/uhmat_project/image/mainSample3.jpg");}
+	20% {background-image: url("/uhmat_project/image/mainSample4.jpg");}
+	35% {background-image: url("/uhmat_project/image/mainSample4.jpg");}
+	40% {background-image: url("/uhmat_project/image/mainSample5.jpg");}
+	55% {background-image: url("/uhmat_project/image/mainSample5.jpg");}
+	60% {background-image: url("/uhmat_project/image/mainSample6.jpg");}
+	75% {background-image: url("/uhmat_project/image/mainSample6.jpg");}
 	80% {background-image: url("/uhmat_project/image/mainSample.jpg");}
-	100% {background-image: url("/uhmat_project/image/mainSample.jpg");}
+	95% {background-image: url("/uhmat_project/image/mainSample.jpg");}
+	100% {background-image: url("/uhmat_project/image/mainSample3.jpg");}
+/* 	90% {background-image: url("/uhmat_project/image/mainSample2.jpg");} */
+/* 	95% {background-image: url("/uhmat_project/image/mainSample3.jpg");} */
+/* 	100% {background-image: url("/uhmat_project/image/mainSample3.jpg");} */
 }
 
 #mainSec01 {
-	background-image: url("/uhmat_project/image/mainSample3.jpg");
-/* 	border: 1px solid; */
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: center center;
-	position: relative;
-	height: 300px;
-	width: 100%;
-	animation: bgimg 10s infinite ease-in;
-}
-
-#sec02 {
 	background-image: url("/uhmat_project/image/mainSample3.jpg");
 /* 	border: 1px solid; */
 	background-repeat: no-repeat;
