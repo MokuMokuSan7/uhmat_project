@@ -9,40 +9,26 @@
 <title>Insert title here</title>
 <link href="css/main.css" rel="stylesheet" type="text/css">
 <script src="js/jquery-3.6.0.js"></script>
+<script src="https://kit.fontawesome.com/5382a0d7e0.js" crossorigin="anonymous"></script>
 <!-- <link href="css/header.css" rel="stylesheet" type="text/css"> -->
 <!-- <link href="css/footer.css" rel="stylesheet" type="text/css"> -->
 <script type="text/javascript">
 	
-	//content 글자 수 제한 코드 
-	$(document).ready(function(){
-	    $('p[id^=content]').each(function(){
-	        if ($(this).text().length > 120) {
-	        $(this).html($(this).text().substr(0,120)+"<br>" +"<span id='highlight' onclick='more()'>...더보기</span>");
-	        }
-	    });
-	    
-	    $("#nextBestReview").on("click",function(){
-	    	 $.ajax({
-		   			type: "post",
-		   			url: "ReviewBest.ma",	//리뷰를 좋아요 순으로 가져오는 요청
-		   			data:{
-		   				pageNum: ${pageInfo.pageNum}+1
-		   			},
-		   			dataType: "text",
-		   			async : false,
-		   			success: function(response) {
-	  					var content = $("#bestReview").html(response).find("#list");
-//	   					alert(response);
-	  					$("#bestReview").html(content);
-		   		   }
-		   		});
-	    });
-	    
-	  window.onload = function(){
-	   	   $.ajax({
+//content 글자 수 제한 코드 
+$(document).ready(function(){
+//	    $('p[id^=content]').each(function(){
+//	        if ($(this).text().length > 120) {
+//	        $(this).html($(this).text().substr(0,120)+"<br>" +"<span id='highlight' onclick='more()'>...더보기</span>");
+//	        }
+//	    });
+    
+    $("#nextBestReview").on("click",function(){
+    	 $.ajax({
 	   			type: "post",
 	   			url: "ReviewBest.ma",	//리뷰를 좋아요 순으로 가져오는 요청
-	   		
+	   			data:{
+	   				pageNum: ${pageInfo.pageNum}+1
+	   			},
 	   			dataType: "text",
 	   			async : false,
 	   			success: function(response) {
@@ -51,39 +37,86 @@
   					$("#bestReview").html(content);
 	   		   }
 	   		});
-	   	   
-	   	$.ajax({
-   			type: "post",
-   			url: "restaurantList.re",	//식당을 가져오는 요청
-   			data: {
-   				bestRes : true
-   			},
-   			dataType: "text",
-   			async : false,
-   			success: function(response) {
-// 				alert($(response).find("#repeat").html());
-				var table = $(response).find("#repeat");
-				var td = table.find("td:eq(0)");
-				var td2 = table.find("tr:eq(0) td:eq(3) img").prop('src');
-				var inputTd = $("#bestRes td:eq(0)").text();
-				$("#bestRes td").eq(0).text(td.text());
-				$("#bestRes img").eq(0).attr('src',td2);
+    });
+    
+  window.onload = function(){
+	   $.ajax({
+			type: "post",
+			url: "ReviewBest.ma",	//리뷰를 좋아요 순으로 가져오는 요청
+		
+			dataType: "text",
+			async : false,
+			success: function(response) {
+// 					var content = $("#bestReview").html(response).find("#list");
+// 					$("#bestReview").html(content);
+				var result = $(response).find("#list");
+				var title = $(response).find("#subject").eq(0);
+// 				alert(title.text());
+				var image = result.find("img:eq(0)");
+				$("#bestReview img:eq(0)").attr('src',image.prop('src'));
 				
-				for(var i=0;i<3;i++){
-					var td = table.find("tr:eq("+i+") td:eq(0)");
-					var td2 = table.find("tr:eq("+i+") td:eq(3) img").prop('src');
-					var inputTd = $("#bestRes td:eq("+i+")").text();
-					$("#bestRes td").eq(i).text(td.text());
-					$("#bestRes img").eq(i).attr('src',td2);
+				for(var i=0;i<4;i++){
+					var image = result.find("img:eq("+i+")");
+					var title = $(response).find("#subject").eq(i);
+					$("#bestReview img:eq("+i+")").attr('src',image.prop('src'));
+					$("#bestReview tr:eq(0) td:eq("+i+")").html(title);
 				}
-   				
-   		   }
-   		});
-	   	
+		   }
+		});
    	   
-	  }
-	
-	});
+   	$.ajax({
+			type: "post",
+			url: "ReviewRecent.ma",	//리뷰를 좋아요 순으로 가져오는 요청
+
+			dataType: "text",
+			async : false,
+			success: function(response) {
+// 				var image = $("#recentReview").html(response).find("#list");
+// 				alert("반환 성공!");
+				var result = $(response).find("#list");
+				var image = result.find("img:eq(0)");
+				$("#recentReview img:eq(0)").attr('src',image.prop('src'));
+				
+				for(var i=0;i<4;i++){
+					var image = result.find("img:eq("+i+")");
+					var title = $(response).find("#subject").eq(i);
+					$("#recentReview img:eq("+i+")").attr('src',image.prop('src'));	
+					$("#recentReview tr:eq(0) td:eq("+i+")").html(title);
+				}
+		   }
+		});
+   	   
+   	$.ajax({
+			type: "post",
+			url: "restaurantList.re",	//식당을 가져오는 요청
+			data: {
+				bestRes : true
+			},
+			dataType: "text",
+			async : false,
+			success: function(response) {
+//				alert($(response).find("#repeat").html());
+			var table = $(response).find("#repeat");
+			var td = table.find("td:eq(0)");
+			var td2 = table.find("tr:eq(0) td:eq(3) img").prop('src');
+// 			var inputTd = $("#bestRes td:eq(0)").text();
+			$("#bestRes td").eq(0).text(td.text());
+			$("#bestRes img").eq(0).attr('src',td2);
+			
+			for(var i=0;i<4;i++){
+				var td = table.find("tr:eq("+i+") td:eq(0)");
+				var td2 = table.find("tr:eq("+i+") td:eq(3) img").prop('src');
+				$("#bestRes td").eq(i).text(td.text());
+				$("#bestRes img").eq(i).attr('src',td2);
+			}
+				
+		   }
+		});
+   	
+	   
+  }
+
+});
 	
 </script>
 </head>
@@ -116,19 +149,49 @@
 		<!-- 최고의 리뷰 순위 시작 -->
 		<div class="mainViewContainer">	
 			<div class="rankContainer">
-				<div class = "imgContainer" ><h2>최다 좋아요 리뷰</h2>
+				<div class = "imgContainer" ><h2>어맛 최다 좋아요 리뷰 <i class="fa-regular fa-heart"></i></h2>
+				<p><div class="moreInformation01" onclick="location.href='ReviewList.re'" style="cursor:pointer;">모두 보기</div></p>
 						<div id="bestReview">
-							<button id="nextBestReview">다음</button>
+							<table class="mainReviewTable">
+							<tr>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+							</tr>
+							<tr>
+								<td><img src="#" width="300" height="200"></td>
+								<td><img src="#" width="300" height="200"></td>
+								<td><img src="#" width="300" height="200"></td>
+								<td><img src="#" width="300" height="200"></td>
+							</tr>
+						</table>	
 						</div>
 				</div>
 			</div>
 		<!-- 최고의 리뷰 순위 끝 -->
 		<div class="clear"></div>
 		<!-- 최신 리뷰 시작 -->
-			<div class="rankReview" id="recentReview">
-				<div class = "imgContainer"><h2>어맛 최신 리뷰</h2>
-					<div id="recentReview">
-						
+			<div class="rankReview">
+				<div class = "imgContainer"><h2>어맛 최신 리뷰 <i class="fa-regular fa-clock"></i></h2>
+				<p><div class="moreInformation02" onclick="location.href='ReviewList.re'" style="cursor:pointer;">모두 보기</div></p>
+					<div>
+						<div id="recentReview">
+						<table class="mainReviewTable">
+							<tr>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+							</tr>
+							<tr>
+								<td><img src="#" width="300" height="200"></td>
+								<td><img src="#" width="300" height="200"></td>
+								<td><img src="#" width="300" height="200"></td>
+								<td><img src="#" width="300" height="200"></td>
+							</tr>
+						</table>						
+					</div>
 					</div>
 				</div>
 			</div>
@@ -136,16 +199,19 @@
 		
 		<!-- 어맛 추천 리뷰 시작 -->
 			<div class="rankReview" id="bestRes">
-				<div class = "imgContainer"><h2>어맛 추천 식당</h2>
+				<div class = "imgContainer"><h2>어맛 추천 식당 <i class="fa-regular fa-thumbs-up"></i></h2>
+				<p><div class="moreInformation03" onclick="location.href='restaurantList.re'" style="cursor:pointer;">모두 보기</div></p>
 					<!-- 별점, 댓글의 개수 순으로 내림차순 정렬된 식당의 값 -->
 					<div id="bestRes">
-						<table>
+						<table class="mainReviewTable">
 							<tr>
+								<td></td>
 								<td></td>
 								<td></td>
 								<td></td>
 							</tr>
 							<tr>
+								<td><img src="#" width="300" height="200"></td>
 								<td><img src="#" width="300" height="200"></td>
 								<td><img src="#" width="300" height="200"></td>
 								<td><img src="#" width="300" height="200"></td>
@@ -155,7 +221,7 @@
 				</div>
 			</div>
 		<!-- 어맛 추천 리뷰 끝 -->
-			
+		</div>
 		<!-- 사이드바 들어가는곳 -->
 			<jsp:include page="inc/sidebar.jsp" flush="false" />
 		<!-- 사이드바 들어가는곳 -->

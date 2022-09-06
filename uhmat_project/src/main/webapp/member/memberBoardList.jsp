@@ -15,15 +15,15 @@
 </head>
 <body>
 
-	
+
 	<table class="mateList">
 		<tr id="font_front">
 			<td>글 번호</td>
-		
+
 			<td>제목</td>
 			<td>닉네임</td>
 			<td>작성일</td>
-		
+
 		</tr>
 		<!-- 게시물 목록 출력(단, 게시물이 하나라도 존재할 경우에만 출력) -->
 		<!-- 조건 : boardList 객체가 비어있지 않고 pageInfo 객체의 listCount 가 0보다 클 경우 -->
@@ -48,17 +48,17 @@
 							<td>${AllList.nickname }</td>
 							<td>${AllList.date }</td>
 						</tr>
-				
-					
+
+
 				</c:forEach>
 			</c:when>
 			<c:otherwise>
 				<tr><td colspan="5">게시물이 존재하지 않습니다.</td></tr>
 			</c:otherwise>
 		</c:choose>
-	
+
 	</table>
-	
+
 	&nbsp;
 
 	<div align="center">
@@ -70,7 +70,7 @@
 				<input type="button" value="이전" class="before_next">
 			</c:otherwise>
 		</c:choose>
-		
+
 		<!-- 페이지 번호 목록은 시작 페이지(startPage)부터 끝 페이지(endPage) 까지 표시 -->
 		<c:forEach var="i" begin="${pageInfo.startPage }" end="${pageInfo.endPage }">
 			<!-- 단, 현재 페이지 번호는 링크 없이 표시 -->
@@ -83,7 +83,7 @@
 				</c:otherwise>
 			</c:choose>
 		</c:forEach>
-		
+
 		<!-- 현재 페이지 번호(pageNum)가 총 페이지 수보다 작을 때만 [다음] 링크 동작 -->
 		<c:choose>
 			<c:when test="${pageInfo.pageNum < pageInfo.maxPage}">
@@ -97,12 +97,3 @@
 
 </body>
 </html>
-
-
-
-
-
-
-
-
-
