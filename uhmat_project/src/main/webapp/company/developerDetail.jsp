@@ -20,7 +20,7 @@
 		  <ul class="p-companyManagement">
 		  	<li class="p-companyManagement__item is-picture -left" alt="대표 안승우">
 		      <div class="p-companyManagement__heading">
-		      	<div class="p-companyManagement__picture"><img src="/uhmat_project/image/asw.jpg" alt="안승우 프로필 사진"></div>
+		      	<div class="p-companyManagement__picture"><img src="/uhmat_project/image/asw2.jpg" alt="안승우 프로필 사진"></div>
 		        	<div class="p-companyManagement__text">
 		            	<div class="p-companyManagement__post">대표</div>
 		          		<div class="p-companyManagement__name">안승우</div>
@@ -47,7 +47,7 @@
 		    </li>
 		    <li class="p-companyManagement__item is-picture -left" alt="끈기와 집념의 사나이 임주영">
 		      <div class="p-companyManagement__heading">
-		      	<div class="p-companyManagement__picture"><img src="/uhmat_project/image/ijy.jpg" alt="임주영 프로필 사진"></div>
+		      	<div class="p-companyManagement__picture"><img src="/uhmat_project/image/ijy2.jpg" alt="임주영 프로필 사진"></div>
 		        	<div class="p-companyManagement__text">
 		            	<div class="p-companyManagement__post">끈기와 집념의 사나이</div>
 		          		<div class="p-companyManagement__name">임주영</div>
@@ -83,7 +83,7 @@
 		    </li>
 		    <li class="p-companyManagement__item is-picture -right" alt="총리 최민석">
 		      <div class="p-companyManagement__heading">
-		      	<div class="p-companyManagement__picture"><img src="" alt="최민석 프로필 사진"></div>
+		      	<div class="p-companyManagement__picture"><img src="/uhmat_project/image/cms.jpg" alt="최민석 프로필 사진"></div>
 		        	<div class="p-companyManagement__text">
 		            	<div class="p-companyManagement__post">총리</div>
 		          		<div class="p-companyManagement__name">최민석</div>
