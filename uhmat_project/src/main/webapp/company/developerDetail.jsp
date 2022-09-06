@@ -20,7 +20,7 @@
 		  <ul class="p-companyManagement">
 		  	<li class="p-companyManagement__item is-picture -left" alt="대표 안승우">
 		      <div class="p-companyManagement__heading">
-		      	<div class="p-companyManagement__picture"><img src="" alt="안승우 프로필 사진"></div>
+		      	<div class="p-companyManagement__picture"><img src="/uhmat_project/image/asw.jpg" alt="안승우 프로필 사진"></div>
 		        	<div class="p-companyManagement__text">
 		            	<div class="p-companyManagement__post">대표</div>
 		          		<div class="p-companyManagement__name">안승우</div>
@@ -47,7 +47,7 @@
 		    </li>
 		    <li class="p-companyManagement__item is-picture -left" alt="끈기와 집념의 사나이 임주영">
 		      <div class="p-companyManagement__heading">
-		      	<div class="p-companyManagement__picture"><img src="" alt="임주영 프로필 사진"></div>
+		      	<div class="p-companyManagement__picture"><img src="/uhmat_project/image/ijy.jpg" alt="임주영 프로필 사진"></div>
 		        	<div class="p-companyManagement__text">
 		            	<div class="p-companyManagement__post">끈기와 집념의 사나이</div>
 		          		<div class="p-companyManagement__name">임주영</div>
@@ -59,7 +59,7 @@
 		    </li>
 		    <li class="p-companyManagement__item is-picture -right" alt="총대장 박기윤">
 		      <div class="p-companyManagement__heading">
-		      	<div class="p-companyManagement__picture"><img src="" alt="박기윤 프로필 사진"></div>
+		      	<div class="p-companyManagement__picture"><img src="/uhmat_project/image/pky.jpg" alt="박기윤 프로필 사진"></div>
 		        	<div class="p-companyManagement__text">
 		            	<div class="p-companyManagement__post">총대장</div>
 		          		<div class="p-companyManagement__name">박기윤</div>
@@ -71,7 +71,7 @@
 		    </li>
 		    <li class="p-companyManagement__item is-picture -right" alt="수석 디자이너 우수빈">
 		      <div class="p-companyManagement__heading">
-		      	<div class="p-companyManagement__picture"><img src="" alt="우수빈 프로필 사진"></div>
+		      	<div class="p-companyManagement__picture"><img src="/uhmat_project/image/wsb.jpg" alt="우수빈 프로필 사진"></div>
 		        	<div class="p-companyManagement__text">
 		            	<div class="p-companyManagement__post">수석 디자이너</div>
 		          		<div class="p-companyManagement__name">우수빈</div>
@@ -93,16 +93,16 @@
 		      	<div class="p-companyManagement__description">(주)여가그가의 자,타칭 총리를 역임. 총리를 맡고 있지만 팀의 최연소이다. 뿐만 아니라 팀의 브레인 3대장 중 한 명. 굉장히 프로젝트에 애살을 가지고 끊임없이 다양한 아이디어를 제시하여 팀의 다양한 시도를 하게끔 하는 원동력.<br>가까운 시일 내에 부모님이 운영하시는 여관의 홈페이지를 본인의 손으로 만들어 드리고 싶은 일념 하에 열심히 클래스에 임했으며 어맛프로젝트에도 참가함.</div>
 		      </div>
 		    </li>
-		    <li class="p-companyManagement__item is-picture -right" alt="찌끄래기 목민수">
+		    <li class="p-companyManagement__item is-picture -right" alt="최약체 목민수">
 		      <div class="p-companyManagement__heading">
-		      	<div class="p-companyManagement__picture"><img src="" alt="목민수 프로필 사진"></div>
+		      	<div class="p-companyManagement__picture"><img src="/uhmat_project/image/mms.jpg" alt="목민수 프로필 사진"></div>
 		        	<div class="p-companyManagement__text">
-		            	<div class="p-companyManagement__post">찌끄래기 WEB.D</div>
+		            	<div class="p-companyManagement__post">최약체 WEB.D</div>
 		          		<div class="p-companyManagement__name">목민수</div>
 		            </div>
 		      </div>
 		      <div class="p-companyManagement__block">
-		      	<div class="p-companyManagement__description">팀의 최연장자이자 그와 동시에 최약체를 담당하고 있음. 말그대로 찌끄래기. 절대 뽀시래기가 아님. 비전공자로서 생전 처음 접하는 장르에 열심히 따라가려고 노력해 보지만 역시 나이는 무시못함. 그의 노력과 도전은 프로젝트가 끝난 후에도 계속될 것.</div>
+		      	<div class="p-companyManagement__description">팀의 최연장자이자 그와 동시에 최약체를 담당하고 있음. 말그대로 쩌리. 비전공자로서 생전 처음 접하는 장르에 열심히 따라가려고 노력해 보지만 역시 나이는 무시못함. 그의 노력과 도전은 프로젝트가 끝난 후에도 계속될 것.</div>
 		      </div>
 		    </li>
 		</ul>
